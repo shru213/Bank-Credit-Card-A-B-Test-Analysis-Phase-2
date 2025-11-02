@@ -18,6 +18,12 @@ A one-tailed z-test for two independent samples was used to compare the means of
 
 The analysis uses the `avg_transactions_after_campaign.csv` file, which contains the daily average transaction amounts for both the control group and the test group (the 18-25 age market) after the campaign launch.
 
+## Visualizing the Distributions
+
+Below are the distributions of the average transaction amounts for both the control and test groups. This visualization helps to intuitively understand the difference in means that the hypothesis test quantifies.
+
+![Distribution of Control and Test Group Transaction Amounts](images/analysis1.png)
+
 ## Results & Conclusion
 
 The `statsmodels.stats.ztest` was performed to get the test statistic and p-value.
@@ -35,7 +41,7 @@ Since the **p-value (0.00299) is less than the significance level (0.05)**, we r
 * **Jupyter Notebook**
 * **Pandas:** For data loading and manipulation.
 * **Statsmodels:** For performing the one-tailed z-test.
-* **Matplotlib / Seaborn:** For visualizing the distributions of the results.
+* **Matplotlib & Seaborn:** For data visualization.
 
 ## How to Run This Project
 
